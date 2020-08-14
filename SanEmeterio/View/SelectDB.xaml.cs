@@ -23,5 +23,10 @@ namespace SanEmeterio.View
         {
             InitializeComponent();
         }
+
+        private void cmdCerrar_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
