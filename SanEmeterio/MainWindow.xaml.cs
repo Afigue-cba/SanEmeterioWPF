@@ -24,5 +24,20 @@ namespace SanEmeterio
         {
             InitializeComponent();
         }
+
+        private void Rombo_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Chevrolet_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Mercedes_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

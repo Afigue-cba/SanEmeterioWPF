@@ -5,8 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SanEmeterio"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Tipo de Conexión" Height="170" Width="200" WindowStartupLocation="CenterScreen" MinWidth="200" MinHeight="170" ResizeMode="NoResize">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+        <Border Grid.Row="0" Grid.Column="1" Background="GhostWhite" BorderBrush="Gainsboro" BorderThickness="3">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Width="120" Height="30" x:Name="Rombo" Click="Rombo_Click" Content="Rombo"/>
+            </StackPanel>
+        </Border>
+        <Border Grid.Row="1" Grid.Column="1" Background="GhostWhite" BorderBrush="Gainsboro" BorderThickness="3">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Width="120" Height="30" x:Name="Chevrolet" Click="Chevrolet_Click" Content="Chevrolet"/>
+            </StackPanel>
+        </Border>
+        <Border Grid.Row="2" Grid.Column="1" Background="GhostWhite" BorderBrush="Gainsboro" BorderThickness="3">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Width="120" Height="30" x:Name="Mercedes" Click="Mercedes_Click" Content="Mercedes Benz"/>
+            </StackPanel>
+        </Border>
     </Grid>
 </Window>
