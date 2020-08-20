@@ -64,6 +64,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Helpers\VariablesGlobales.cs" />
     <Compile Include="View\SelectDB.xaml.cs">
       <DependentUpon>SelectDB.xaml</DependentUpon>
     </Compile>

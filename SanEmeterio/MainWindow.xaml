@@ -17,17 +17,17 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="20"/>
         </Grid.ColumnDefinitions>
-        <Border Grid.Row="0" Grid.Column="1" Background="GhostWhite" BorderBrush="Gainsboro" BorderThickness="3">
+        <Border Grid.Row="0" Grid.Column="1" Background="GhostWhite" BorderBrush="Gainsboro" BorderThickness="1">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                 <Button Width="120" Height="30" x:Name="Rombo" Click="Rombo_Click" Content="Rombo"/>
             </StackPanel>
         </Border>
-        <Border Grid.Row="1" Grid.Column="1" Background="GhostWhite" BorderBrush="Gainsboro" BorderThickness="3">
+        <Border Grid.Row="1" Grid.Column="1" Background="GhostWhite" BorderBrush="Gainsboro" BorderThickness="1">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                 <Button Width="120" Height="30" x:Name="Chevrolet" Click="Chevrolet_Click" Content="Chevrolet"/>
             </StackPanel>
         </Border>
-        <Border Grid.Row="2" Grid.Column="1" Background="GhostWhite" BorderBrush="Gainsboro" BorderThickness="3">
+        <Border Grid.Row="2" Grid.Column="1" Background="GhostWhite" BorderBrush="Gainsboro" BorderThickness="1">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                 <Button Width="120" Height="30" x:Name="Mercedes" Click="Mercedes_Click" Content="Mercedes Benz"/>
             </StackPanel>
