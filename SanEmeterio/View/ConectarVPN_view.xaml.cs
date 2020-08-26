@@ -15,18 +15,13 @@ using System.Windows.Shapes;
 namespace SanEmeterio.View
 {
     /// <summary>
-    /// Lógica de interacción para SelectDB.xaml
+    /// Lógica de interacción para ConectarVPN_view.xaml
     /// </summary>
-    public partial class SelectDB : Window
+    public partial class ConectarVPN_view : Window
     {
-        public SelectDB()
+        public ConectarVPN_view()
         {
             InitializeComponent();
-        }
-
-        private void cmdCerrar_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

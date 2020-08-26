@@ -14,15 +14,15 @@ namespace SanEmeterio.Helpers
         private static MySqlCommand cmd = null;
         private static DataTable dt;
         private static MySqlDataAdapter sda;
-        public static bool EstableceConexion(string sUsuario, string sPassword)
+        public static bool EstableceConexion(string sUsuario, string sPassword, string sServer, string sDatabase)
         {
             try
             {
                 MySqlConnectionStringBuilder cnx = new MySqlConnectionStringBuilder();
-                cnx.Server = "127.0.0.1";
+                cnx.Server = sServer;
                 cnx.UserID = sUsuario;
                 cnx.Password = sPassword;
-                cnx.Database = "sanemeterio";
+                cnx.Database = sDatabase;
                 cnx.SslMode = MySqlSslMode.None;
                 connection = new MySqlConnection(cnx.ToString());
                 if (connection.State == ConnectionState.Open)

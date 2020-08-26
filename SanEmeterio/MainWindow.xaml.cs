@@ -25,19 +25,19 @@ namespace SanEmeterio
             InitializeComponent();
         }
 
-        private void Rombo_Click(object sender, RoutedEventArgs e)
+        private void btnVPN_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void Chevrolet_Click(object sender, RoutedEventArgs e)
+        private void btnLocal_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void Mercedes_Click(object sender, RoutedEventArgs e)
+        private void btnClose_Click(object sender, RoutedEventArgs e)
         {
-
+            Application.Current.Shutdown();
         }
     }
 }

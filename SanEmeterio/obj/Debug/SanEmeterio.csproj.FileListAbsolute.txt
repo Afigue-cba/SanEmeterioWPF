@@ -9,12 +9,10 @@ D:\Desarrollos\C#\SanEmeterio\SanEmeterioWPF\SanEmeterio\bin\Debug\MaterialDesig
 D:\Desarrollos\C#\SanEmeterio\SanEmeterioWPF\SanEmeterio\bin\Debug\MaterialDesignThemes.Wpf.xml
 D:\Desarrollos\C#\SanEmeterio\SanEmeterioWPF\SanEmeterio\obj\Debug\SanEmeterio.csprojAssemblyReference.cache
 D:\Desarrollos\C#\SanEmeterio\SanEmeterioWPF\SanEmeterio\obj\Debug\MainWindow.g.cs
-D:\Desarrollos\C#\SanEmeterio\SanEmeterioWPF\SanEmeterio\obj\Debug\View\SelectDB.g.cs
 D:\Desarrollos\C#\SanEmeterio\SanEmeterioWPF\SanEmeterio\obj\Debug\App.g.cs
 D:\Desarrollos\C#\SanEmeterio\SanEmeterioWPF\SanEmeterio\obj\Debug\SanEmeterio_MarkupCompile.cache
 D:\Desarrollos\C#\SanEmeterio\SanEmeterioWPF\SanEmeterio\obj\Debug\SanEmeterio_MarkupCompile.lref
 D:\Desarrollos\C#\SanEmeterio\SanEmeterioWPF\SanEmeterio\obj\Debug\MainWindow.baml
-D:\Desarrollos\C#\SanEmeterio\SanEmeterioWPF\SanEmeterio\obj\Debug\View\SelectDB.baml
 D:\Desarrollos\C#\SanEmeterio\SanEmeterioWPF\SanEmeterio\obj\Debug\SanEmeterio.g.resources
 D:\Desarrollos\C#\SanEmeterio\SanEmeterioWPF\SanEmeterio\obj\Debug\SanEmeterio.Properties.Resources.resources
 D:\Desarrollos\C#\SanEmeterio\SanEmeterioWPF\SanEmeterio\obj\Debug\SanEmeterio.csproj.GenerateResource.cache
@@ -22,3 +20,6 @@ D:\Desarrollos\C#\SanEmeterio\SanEmeterioWPF\SanEmeterio\obj\Debug\SanEmeterio.c
 D:\Desarrollos\C#\SanEmeterio\SanEmeterioWPF\SanEmeterio\obj\Debug\SanEmeterio.csproj.CopyComplete
 D:\Desarrollos\C#\SanEmeterio\SanEmeterioWPF\SanEmeterio\obj\Debug\SanEmeterio.exe
 D:\Desarrollos\C#\SanEmeterio\SanEmeterioWPF\SanEmeterio\obj\Debug\SanEmeterio.pdb
+D:\Desarrollos\C#\SanEmeterio\SanEmeterioWPF\SanEmeterio\obj\Debug\View\ConectarVPN_view.g.cs
+D:\Desarrollos\C#\SanEmeterio\SanEmeterioWPF\SanEmeterio\obj\Debug\View\ConectarVPN_view.baml
+D:\Desarrollos\C#\SanEmeterio\SanEmeterioWPF\SanEmeterio\obj\Debug\App.baml
