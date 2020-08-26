@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SanEmeterio.View;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,7 +28,9 @@ namespace SanEmeterio
 
         private void btnVPN_Click(object sender, RoutedEventArgs e)
         {
-
+            ConectarVPN_view VPN_View = new ConectarVPN_view();
+            VPN_View.Show();
+            this.Close();
         }
 
         private void btnLocal_Click(object sender, RoutedEventArgs e)

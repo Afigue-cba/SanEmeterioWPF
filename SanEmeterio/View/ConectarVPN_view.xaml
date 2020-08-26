@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SanEmeterio.View"
         mc:Ignorable="d"
-        Title="ConectarVPN_view" Height="450" Width="800">
-    <Grid>
-        
+        Title="Conectar con Estudio por VPN" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid Style="{StaticResource BackgroundGrid}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
     </Grid>
 </Window>
